@@ -11,7 +11,7 @@ describe("arrays", function() {
     describe("Number of items in an array", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
-            // ✏️ ADD CODE HERE. USE THE STANDARD LIB, NO LOOPS! ✏️
+            // ✏️ init <subject> (describing: subject) ✏️
 
             ////////////////////////////////////////////////////////////////////
 
