@@ -352,7 +352,8 @@ const someVariable = true;
             // You can create objects that reference themselves.
             // But you need two steps to do it.
             // ✏️ ADD CODE HERE ✏️
-
+            const object = {};
+            object.object = object;
             ////////////////////////////////////////////////////////////////////
 
             expect(object.object).to.equal(object);
