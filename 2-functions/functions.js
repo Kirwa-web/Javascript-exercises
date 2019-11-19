@@ -421,8 +421,9 @@ const context = {};
             // Can you implement a function that takes a function as an argument,
             // executes it and returns the result?
             // ✏️ ADD CODE HERE ✏️
-
-            ////////////////////////////////////////////////////////////////////
+            function myFunction(){}
+            passMeAFunction(myFunction); 
+        ////////////////////////////////////////////////////////////////////
 
             if (hasBeenCalled === false) {
                 throw new Error("passMeAFunction() has not been called");
