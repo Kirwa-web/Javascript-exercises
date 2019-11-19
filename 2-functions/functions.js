@@ -168,7 +168,7 @@ const context = {};
             // You're not allowed to define a new function here.
             // If you call getContext() here, you're a cheater! :)
             // ✏️ ADD CODE HERE ✏️
-            result = getContext(context);
+          getContext = getContext.bind(differentContext);
             ////////////////////////////////////////////////////////////////////
 
             const result = getContext.call(context);
