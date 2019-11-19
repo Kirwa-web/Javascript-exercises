@@ -357,7 +357,7 @@ const context = {};
                 // Uh-oh, the function 'breakTheLoop' calls itself recursively (see below).
                 // There are two possible solutions that break the loop. Can you find both?
                 // ✏️ ADD CODE HERE ✏️
-
+                function breakTheLoop() {};
                 ////////////////////////////////////////////////////////////////////
 
                 breakTheLoop(); // Recursive call
