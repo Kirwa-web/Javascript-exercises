@@ -533,7 +533,13 @@ const context = {};
             // - stores the result of 'fn' in an array at the current position
             // - returns the array with results in the end
             // ✏️ ADD CODE HERE ✏️
-
+            function map(fn, arr){
+                const results = new Array(arr.length);
+                for (let i = 0; i < arr.length; i++){
+                   results[i]= fn(arr[i], i);
+                }
+                return results;
+            }
             ////////////////////////////////////////////////////////////////////
 
             let results;
