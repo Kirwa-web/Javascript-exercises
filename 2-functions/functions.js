@@ -684,7 +684,7 @@ service.handleEvent = service.handleEvent.bind(service);
                     return function () {
                         this.doSomething();
                         this.doAnotherThing();
-                    };
+                    }.bind(this);
                 },
                 doSomething: function () { },
                 doAnotherThing: function () { }
